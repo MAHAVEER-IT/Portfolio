@@ -1,0 +1,33 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #646cff;
+}
+
+.copyright {
+  color: #999;
+  font-size: 0.9rem;
+} 
