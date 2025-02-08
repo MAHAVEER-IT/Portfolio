@@ -8,7 +8,7 @@ const Footer = () => {
           <a href="https://linkedin.com/in/mahaveer-k" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
-          <a href="https:https://github.com/MAHAVEER-IT" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/MAHAVEER-IT" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </div>
