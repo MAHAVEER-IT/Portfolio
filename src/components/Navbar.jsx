@@ -7,7 +7,14 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-brand">
-        <a href="#home">Portfolio</a>
+        <a href="#home">
+          <img 
+            src="https://img.icons8.com/fluency/48/000000/code.png" 
+            alt="Developer Icon" 
+            className="brand-icon"
+          />
+          Mahaveer Portfolio
+        </a>
       </div>
       
       <button 

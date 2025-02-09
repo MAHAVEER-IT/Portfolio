@@ -34,7 +34,7 @@ const About = () => {
           </div>
         </div>
         <div className="about-image">
-          <img src="/path-to-your-profile-image.jpg" alt="Mahaveer K" />
+          <img src="/portfolio_img.png" alt="Mahaveer K" />
         </div>
       </div>
     </section>
