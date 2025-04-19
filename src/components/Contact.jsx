@@ -48,10 +48,9 @@ const Contact = () => {
           <div className="interests">
             <h3>Areas of Interest</h3>
             <ul>
-              <li>Mobile App Security (Cybersecurity)</li>
-              <li>IoT-based App Development</li>
-              <li>3D Model Animations</li>
-              <li>Sustainability & Environment-related projects</li>
+              <li>Web Development</li>
+              <li>Mobile App Development</li>
+              <li>Cloud Computing</li>
             </ul>
           </div>
         </div>

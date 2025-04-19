@@ -7,7 +7,7 @@ const Projects = () => {
       description: "School Management App with attendance tracking, role-based access, and SMS updates",
       image: "https://img.freepik.com/free-vector/online-certification-illustration_23-2148575636.jpg",
       technologies: ["Flutter", "Firebase", "Google Sheets"],
-      details: "Developed UI Design and Firebase Integration in collaboration with Lingesh V",
+      details: "With Team collaboration",
       github: "https://github.com/MAHAVEER-IT/bank_inish.git",
       drive: "https://drive.google.com/drive/folders/1vxKULPPqAU3odQUJQFvZ8AQCmuWauxas?usp=drive_link"
     },
@@ -16,7 +16,7 @@ const Projects = () => {
       image: "https://img.freepik.com/free-vector/isometric-money-saving-concept-background_52683-6820.jpg",
       description: "Finance Management App with balance check, mini-statement, loan calculators, and expense tracker",
       technologies: ["Flutter", "Firebase"],
-      details: "Team collaboration with Saravanan and Puvi",
+      details: "Hackathon 3rd Prize Winner",
       github: "https://github.com/MAHAVEER-IT/bank_inish.git",
       drive: "https://drive.google.com/drive/folders/13j3pnF7rVRWrvD1OvyUghWhdSVP8HYQR?usp=drive_link"
     },

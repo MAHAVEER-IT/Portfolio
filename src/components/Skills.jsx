@@ -2,10 +2,11 @@ import './Skills.css'
 
 const Skills = () => {
   const skills = {
-    languages: ["C", "C++", "Python", "Dart", "Java", "SQL"],
-    frameworks: ["Flutter", "JavaFX"],
-    databases: ["Firebase", "MongoDB", "SQL", "Google Sheets"],
-    tools: ["WebSockets", "Git","BLoC Architecture (learning)"]
+    languages: ["C", "C++", "Python", "Java", "Dart", "MySQL"],
+    core: ["Data Structures", "Algorithms"],
+    tools: ["VS Code", "PyCharm", "Canva", "GitHub", "Android Studio"],
+    frameworks: ["Flutter", "BLoC (State Management)", "Node.js", "Express.js", "Socket.io"],
+    databases: ["Firebase", "MongoDB"]
   }
 
   return (
@@ -21,7 +22,23 @@ const Skills = () => {
           </ul>
         </div>
         <div className="skill-category">
-          <h3>Frameworks</h3>
+          <h3>Core</h3>
+          <ul>
+            {skills.core.map((skill, index) => (
+              <li key={index}>{skill}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="skill-category">
+          <h3>Tools</h3>
+          <ul>
+            {skills.tools.map((skill, index) => (
+              <li key={index}>{skill}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="skill-category">
+          <h3>Framework / Backend</h3>
           <ul>
             {skills.frameworks.map((skill, index) => (
               <li key={index}>{skill}</li>
@@ -29,17 +46,9 @@ const Skills = () => {
           </ul>
         </div>
         <div className="skill-category">
-          <h3>Databases</h3>
+          <h3>Database</h3>
           <ul>
             {skills.databases.map((skill, index) => (
-              <li key={index}>{skill}</li>
-            ))}
-          </ul>
-        </div>
-        <div className="skill-category">
-          <h3>Tools & Technologies</h3>
-          <ul>
-            {skills.tools.map((skill, index) => (
               <li key={index}>{skill}</li>
             ))}
           </ul>
@@ -49,4 +58,4 @@ const Skills = () => {
   )
 }
 
-export default Skills 
+export default Skills
